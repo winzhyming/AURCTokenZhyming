@@ -1,0 +1,354 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+    <link rel="stylesheet" type="text/css" href="css/init.css"/>
+    <link rel="stylesheet" type="text/css" href="css/style.css"/>
+    <title>极光</title>
+  </head>
+  <body>
+    <div class="ws-top wrapper-inner">
+      <div class="flex flex-jus flex-ver container">
+        <a href="#" class="logo"><img src="images/logo.png" ></a>
+        <div class="flex1 navs">
+          <div class="nav-list">
+            <div class="limit">
+              <button class="close" onclick="closeMenu();">
+                <span class="bar"></span>
+                <span class="bar"></span>
+              </button>
+              <ul class="flex">
+                <li class="on"><a href="#">首页</a></li>
+                <li><a href="#Tokenomics">代币经济学</a></li>
+                <li><a href="#map">路线图</a></li>
+                <li><a href="极光加密_白皮书.pdf" target="_blank">白皮书</a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <a href="javascript: openMenu();" class="menu-bar">
+          <svg aria-hidden="true" class="kadence-svg-icon kadence-menu-svg" fill="currentColor" version="1.1" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+            <title>Toggle Menu</title>
+            <path d="M3 13h18c0.552 0 1-0.448 1-1s-0.448-1-1-1h-18c-0.552 0-1 0.448-1 1s0.448 1 1 1zM3 7h18c0.552 0 1-0.448 1-1s-0.448-1-1-1h-18c-0.552 0-1 0.448-1 1s0.448 1 1 1zM3 19h18c0.552 0 1-0.448 1-1s-0.448-1-1-1h-18c-0.552 0-1 0.448-1 1s0.448 1 1 1z"></path>
+          </svg>
+        </a>
+        <div class="lan">
+          <select name="language" id="language">
+            <option value="ch" selected="selected">中文</option>
+            <option value="en">英文</option>
+          </select>
+        </div>
+      </div>
+    </div>
+    
+    <div class="wrapper-inner">
+      <div class="index-banner">
+        <div class="bg" style="background: url(./images/bg-ws-top.jpg) top right no-repeat;"></div>
+        <div class="container">
+          <div class="words">
+            <div class="w-header">
+              <h1><img src="images/words.png" ></h1>
+              <p>极光的愿景是“打造价值不断增长的加密资产，为其持有者提供高回报和最佳安全功能”。</p>
+            </div>
+            <div class="w-body">
+              <div class="list">
+                <p class="tt">极光(货币体系的建立)给予消费主义希望</p>
+                <p class="li">1. 建立与现实销售联动的货币体系</p>
+                <p class="li">2. 不增加消费负担，空投极光，利用共识经济实现未来希望</p>
+                <p class="li">3. 极光通证为极光元宇宙的通用货币，未来可以在母通证下设置子通证</p>
+              </div>
+              <div class="add">
+                <p class="flex flex-ver tt"><img src="images/ic-is-right.png" class="is-right" ><span>合约地址</span></p>
+                <p class="li">0xD1Ea3F50b296E90f03F21302F8BC3014D8859c12</p>
+              </div>
+              <div class="hd">
+                <p class="li">* 滑点9-10%</p>
+              </div>
+              <div class="flex btns">
+                <button onclick="window.location.href='https://pancakeswap.finance/swap/0xD1Ea3F50b296E90f03F21302F8BC3014D8859c12'">立即购买</button>
+                <button onclick="window.location.href='https://poocoin.app/tokens/0xD1Ea3F50b296E90f03F21302F8BC3014D8859c12'">图表</button>
+                <button onclick="window.location.href='https://t.me/AURC_Token'">聊天</button>
+              </div>
+            </div>
+            <div class="w-footer">
+              <p class="ft">联系我们</p>
+              <ul class="flex flex-ver">
+                <li><a href="https://t.me/AURC_Token" target="_blank"><img src="images/g-telegram.png" ></a></li>
+                <li><a href="#"><img src="images/g-twitter.png" ></a></li>
+                <li><a href="#"><img src="images/g-youtube.png" ></a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+        
+      <div class="index-db" id="Tokenomics">
+        <h2 class="id-tt">代币经济学</h2>
+        <div class="flex container">
+          <div class="flex box">
+            <div class="item">
+              <div class="flex flex-center icon"><img src="images/ic-db01.png" ></div>
+              <div class="tt">重新分配给持有人（反思）</div>
+              <div class="cont">每笔交易的 3% 将作为被动收入重新分配给所有现有的 极光通证 持有者，具体取决于他们持有的代币数量。</div>
+            </div>
+            <div class="item">
+              <div class="flex flex-center icon"><img src="images/ic-db02.png" ></div>
+              <div class="tt">自动分配到流动资金池</div>
+              <div class="cont">每笔交易的 2% 将分配到 PancakeSwap 的流动资金池中。因此，这将有助于维持交易的价格流动。</div>
+            </div>
+            <div class="item">
+              <div class="flex flex-center icon"><img src="images/ic-db03.png" ></div>
+              <div class="tt">巨大的营销和发展目标</div>
+              <div class="cont">每笔交易的 1% 将分配给开发钱包。它将用于白皮书中指定的项目的未来开发。</div>
+            </div>
+            <div class="item">
+              <div class="flex flex-center icon"><img src="images/ic-db04.png" ></div>
+              <div class="tt">自动刻录</div>
+              <div class="cont">每笔交易的 2% 将通过将代币转移到死钱包来燃烧，以随着时间的推移减少流通供应并提高 极光通证 的价格。</div>
+            </div>
+            <div class="item">
+              <div class="flex flex-center icon"><img src="images/ic-db05.png" ></div>
+              <div class="tt">供应有限</div>
+              <div class="cont">最大代币供应量仅为 1,000,000,000,000,000 极光通证。因此，极光通证 极有可能在短时间内暴涨价格。</div>
+            </div>
+            <div class="item">
+              <div class="flex flex-center icon"><img src="images/ic-db06.png" ></div>
+              <div class="tt">安全功能</div>
+              <div class="cont">流动性永远锁定在 uncx 上。白皮书中提供了更多详细信息。</div>
+            </div>
+          </div>
+        </div>
+      </div>
+        
+      <div class="flex flex-center index-add">
+        <div>
+          <p class="t">开发者钱包地址</p>
+          <p class="c">0x9b9C9470913a437D411fEAfFA33c6e13677e4996</p>
+        </div>
+      </div>
+      
+      <div class="index-lines" id="map">
+        <h2 class="h2">我们的路线图</h2>
+        <div class="flex container">
+          <div class="item">
+            <p class="tt">阶段1</p>
+            <ul>
+              <li class="flex">
+                <img src="images/ic-sub.png" class="sub" alt="">
+                <p class="flex1">创建社交媒体账户</p>
+              </li>
+              <li class="flex">
+                <img src="images/ic-sub.png" class="sub" alt="">
+                <p class="flex1">智能合约的部署</p>
+              </li>
+              <li class="flex">
+                <img src="images/ic-sub.png" class="sub" alt="">
+                <p class="flex1">BscScan验证</p>
+              </li>
+              <li class="flex">
+                <img src="images/ic-sub.png" class="sub" alt="">
+                <p class="flex1">网站启动</p>
+              </li>
+              <li class="flex">
+                <img src="images/ic-sub.png" class="sub" alt="">
+                <p class="flex1">发布白皮书</p>
+              </li>
+              <li class="flex">
+                <img src="images/ic-sub.png" class="sub" alt="">
+                <p class="flex1">空投活动(一)</p>
+              </li>
+              <li class="flex">
+                <img src="images/ic-sub.png" class="sub" alt="">
+                <p class="flex1">流动性锁定</p>
+              </li>
+              <li class="flex">
+                <img src="images/ic-sub.png" class="sub" alt="">
+                <p class="flex1">将所有权转移</p>
+              </li>
+            </ul>
+          </div>
+          <div class="item">
+            <p class="tt">阶段2</p>
+            <ul>
+              <li class="flex">
+                <img src="images/ic-sub.png" class="sub" alt="">
+                <p class="flex1">在PancakeSwap启动</p>
+              </li>
+              <li class="flex">
+                <img src="images/ic-sub.png" class="sub" alt="">
+                <p class="flex1">硬币投票网站列表</p>
+              </li>
+              <li class="flex">
+                <img src="images/ic-sub.png" class="sub" alt="">
+                <p class="flex1">实时价格图标</p>
+              </li>
+              <li class="flex">
+                <img src="images/ic-sub.png" class="sub" alt="">
+                <p class="flex1">在Coinsniper上架</p>
+              </li>
+              <li class="flex">
+                <img src="images/ic-sub.png" class="sub" alt="">
+                <p class="flex1">商城开通</p>
+              </li>
+              <li class="flex">
+                <img src="images/ic-sub.png" class="sub" alt="">
+                <p class="flex1">空投活动(二)</p>
+              </li>
+              <li class="flex">
+                <img src="images/ic-sub.png" class="sub" alt="">
+                <p class="flex1">500名极光通证持有者</p>
+              </li>
+              <li class="flex">
+                <img src="images/ic-sub.png" class="sub" alt="">
+                <p class="flex1">1000万美元以上市值</p>
+              </li>
+            </ul>
+          </div>
+          <div class="item">
+            <p class="tt">阶段3</p>
+            <ul>
+              <li class="flex">
+                <img src="images/ic-sub.png" class="sub" alt="">
+                <p class="flex1">在主要钱包中包含极光通证</p>
+              </li>
+              <li class="flex">
+                <img src="images/ic-sub.png" class="sub" alt="">
+                <p class="flex1">在Livecoinwatch上架</p>
+              </li>
+              <li class="flex">
+                <img src="images/ic-sub.png" class="sub" alt="">
+                <p class="flex1">在coinhunt上架</p>
+              </li>
+              <li class="flex">
+                <img src="images/ic-sub.png" class="sub" alt="">
+                <p class="flex1">在Coinsniper上架</p>
+              </li>
+              <li class="flex">
+                <img src="images/ic-sub.png" class="sub" alt="">
+                <p class="flex1">在coindiscovery上架</p>
+              </li>
+              <li class="flex">
+                <img src="images/ic-sub.png" class="sub" alt="">
+                <p class="flex1">空投活动(三)</p>
+              </li>
+              <li class="flex">
+                <img src="images/ic-sub.png" class="sub" alt="">
+                <p class="flex1">1000名极光通证持有者</p>
+              </li>
+              <li class="flex">
+                <img src="images/ic-sub.png" class="sub" alt="">
+                <p class="flex1">在crypto上架</p>
+              </li>
+            </ul>
+          </div>
+          <div class="item">
+            <p class="tt">阶段4</p>
+            <ul>
+              <li class="flex">
+                <img src="images/ic-sub.png" class="sub" alt="">
+                <p class="flex1">在watcher上架</p>
+              </li>
+              <li class="flex">
+                <img src="images/ic-sub.png" class="sub" alt="">
+                <p class="flex1">在yydscoins上架</p>
+              </li>
+              <li class="flex">
+                <img src="images/ic-sub.png" class="sub" alt="">
+                <p class="flex1">发布极光NFT</p>
+              </li>
+              <li class="flex">
+                <img src="images/ic-sub.png" class="sub" alt="">
+                <p class="flex1">2000名极光通证持有者</p>
+              </li>
+              <li class="flex">
+                <img src="images/ic-sub.png" class="sub" alt="">
+                <p class="flex1">幸运抽奖活动</p>
+              </li>
+              <li class="flex">
+                <img src="images/ic-sub.png" class="sub" alt="">
+                <p class="flex1">空投活动(四)</p>
+              </li>
+              <li class="flex">
+                <img src="images/ic-sub.png" class="sub" alt="">
+                <p class="flex1">启动极光通证Swap</p>
+              </li>
+              <li class="flex">
+                <img src="images/ic-sub.png" class="sub" alt="">
+                <p class="flex1">公众调查和民意调查</p>
+              </li>
+              <li class="flex">
+                <img src="images/ic-sub.png" class="sub" alt="">
+                <p class="flex1">$1B+市值</p>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      
+      <div class="ws-footer">
+        <div class="flex flex-ver flex-jus container">
+          <div class="shares">
+            <p>我们的社交资料</p>
+            <ul class="flex">
+              <li><a class="flex-center" href="https://t.me/AURC_Token" target="_blank"><img src="images/w-telegram.png" ></a></li>
+              <li><a class="flex-center" href="#"><img src="images/w-twitter.png" ></a></li>
+              <li><a class="flex-center" href="#"><img src="images/w-youtube.png" ></a></li>
+            </ul>
+          </div>
+          <a href="#" class="conds">条款和条件</a>
+        </div>
+      </div>
+      
+      <div class="ws-copyright">
+        <p>版权所有@2022 极光</p>
+      </div>
+    </div>
+    
+      
+    <script type="text/javascript" src="js/jquery.min.js"></script>
+    <script type="text/javascript" src="js/jarallax.js"></script>
+    <script type="text/javascript">
+      $(function() {
+        var jarallax = new Jarallax();
+        // jarallax.setDefault('.index-banner');
+        jarallax.addAnimation('.index-banner .bg',[
+          {progress: "0%", top:"0%"}, 
+          {progress: "5%", top:"0%"}, 
+          {progress: "50%", top: '50%'},
+        ]);
+        
+        $('#language').change(function (e) {
+          console.log($(this).val())
+          var val = $(this).val()
+          if ('zh' === val) window.location.href = 'zh.html'
+          else window.location.href = 'index.html'
+        })
+      })
+      
+      $(window).scroll(function () {
+        console.log($(this).scrollTop())
+        var top = $(this).scrollTop();
+        if (top > 200) {
+          $('.ws-top').addClass('fixed')
+        } else {
+          $('.ws-top').removeClass('fixed')
+        }
+      }) 
+      
+      $(window).resize(function () {
+        $('body').removeClass('ohide')
+      })
+      
+      function openMenu () {
+        $('body').addClass('ohide')
+      }
+      function closeMenu () {
+        $('body').removeClass('ohide')
+      }
+      
+      
+    </script>
+  </body>
+</html>
